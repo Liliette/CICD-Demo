@@ -14,6 +14,6 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $tavis
   local-dir: jest-demo
   repo: Liliette/CICD-Demo
