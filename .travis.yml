@@ -11,9 +11,9 @@ script:
   - npm run test
   - echo [ 部署 Deploy ]
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local-dir: jest-demo
-  repo: JasonXDDD/CICD-Demo
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_TOKEN
+#   local-dir: jest-demo
+#   repo: Liliette/CICD-Demo
